@@ -1,0 +1,287 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 1500px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: white;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #e6e6e6;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icon_next_study {
+  width: 80px;
+  height: 40px;
+  background-color: #d8d8d8;
+  border-radius: 35%;
+  margin-right: 10px;
+}
+
+.icon_next_NAME {
+  width: 50px;
+  height: 50px;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/*여기까지 header 태그 스타일입니다.*/
+
+.aside-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+aside {
+  width: 250px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+aside h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+}
+
+aside ul li a:active {
+  font-weight: bold;
+}
+/*여기까지 aside 태그 스타일입니다.*/
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 600px;
+  margin: 20px auto;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.studies {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  padding: 20px 100px;
+  margin-left: 20px;
+}
+
+.text-study {
+  margin-right: 20px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  font-size: 14px;
+}
+
+.icon_completion {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+/*여기까지 section 태그 스타일입니다.(프로필 영역)*/
+
+.keyword {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.keyword-container {
+  display: flex;
+  justify-self: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.keyword-button {
+  padding: 10px 50px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3 ease;
+  color: #ccc;
+}
+/*여기까지 section 태그 부분입니다.(관심 키워드)*/
+
+.experinece-container {
+  max-width: 600px;
+  margin-left: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.experience-header h2 {
+  margin: 0;
+}
+.experience {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.experience-img {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.experience-details {
+  flex-grow: 1;
+}
+.add-education {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #e0e0e0;
+  color: #555;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.add-education:hover {
+  background-color: #ccc;
+}
+/*여기까지 section태그입니다.(경력)*/
+
+.recommend-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.recommend-header {
+  margin-bottom: 20px;
+}
+
+.recommend-header h2 {
+  margin: 0;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+.card {
+  flex: 0 0 300px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-content {
+  background-color: #f0f0f0;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  position: relative;
+}
+
+.card .title {
+  font-weight: bold;
+  margin-bottom: 10px 20px;
+}
+.card .details {
+  font-size: 14px;
+  margin: 0 20px 10px 20px;
+}
+.card .like {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  color: #888;
+}
+/*여기까지 section태그입니다.(강의 추천)*/
